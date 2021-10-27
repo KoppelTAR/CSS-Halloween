@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eb6123;
+    color: #f5cd08;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    color: #5f2b93;
+}
+h1 {
+    padding-bottom: 1.5rem;
+}
+
+.nav-container{
+    width: 100%;
+    overflow: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.nav-container a {
+    padding: 12px;
+    text-decoration: none;
+    color: #171615;
+}
+
+.nav-container a:hover {
+    background-color: #f5cd08;
+}
+
+.food{
+    width: 50%;
+    text-align: left;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.food h3 {
+    padding-bottom: 1rem;
+}
+
+.food_pic {
+    width: 25%;
+    float: left;
+    margin-right: 2rem;
+}
+
+.drinks{
+    width: 50%;
+    text-align: right;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.drinks h3 {
+    padding-bottom: 1rem;
+    margin-right: 2rem;
+}
+
+.drinks_pic {
+    width: 25%;
+    padding-left: 1rem;
+    float: right;
+    margin-right: 2rem;
+}
+
+.dj_services h3 {
+    padding-bottom: 1rem;
+}
+
+.dj_pic {
+    width: 25%;
+    padding-top: 1rem;
+}
+
+.gallery {
+    display: grid;
+}
